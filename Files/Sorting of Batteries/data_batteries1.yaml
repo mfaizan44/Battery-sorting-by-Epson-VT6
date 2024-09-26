@@ -1,0 +1,29 @@
+train:
+  train_image_folder: C:/Users/mfaiz/Desktop/PROJECT/dataset_bat/train/
+  train_annotation_folder: C:/Users/mfaiz/Desktop/PROJECT/dataset_bat/train/
+  train_list: C:/Users/mfaiz/Desktop/PROJECT/dataset_bat/train.txt
+
+valid:
+  valid_image_folder: C:/Users/mfaiz/Desktop/PROJECT/dataset_bat/val/
+  valid_annotation_folder: C:/Users/mfaiz/Desktop/PROJECT/dataset_bat/val/
+  valid_list: C:/Users/mfaiz/Desktop/PROJECT/dataset_bat/val.txt
+
+nc: 3  # Number of classes
+names: ['AA', 'D type', '9v']  # Class names
+
+batch_size: 16
+subdivisions: 4
+
+width: 416
+height: 416
+
+learning_rate: 0.001
+max_batches: 5000
+
+steps:
+  - 4000
+  - 4500
+
+scales:
+  - 0.1
+  - 0.1

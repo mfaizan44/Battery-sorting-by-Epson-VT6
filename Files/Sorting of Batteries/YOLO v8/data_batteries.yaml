@@ -1,0 +1,4 @@
+train: C:/Users/mfaiz/Desktop/PROJECT/dataset_bat/train/
+val: C:/Users/mfaiz/Desktop/PROJECT/dataset_bat/val/
+nc: 3
+names: ['AA', 'D type', '9v']
